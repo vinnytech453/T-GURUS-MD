@@ -1,5 +1,5 @@
 const bot = require(__dirname + '/lib/amd')
-const { VERSION } = require(__dirname + '/config')
+const { VERSION } = require(__dirname + '/main')
 
 const start = async () => {
     Debug.info(`Starting Asta ${VERSION}`)
